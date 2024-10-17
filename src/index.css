@@ -3,5 +3,9 @@
 @tailwind utilities;
 
 body {
-  @apply flex flex-col justify-center bg-slate-500 h-screen;
+  @apply flex flex-col justify-center bg-slate-300 h-screen;
+}
+
+.example-button {
+  @apply bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded;
 }
