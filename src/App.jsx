@@ -1,6 +1,7 @@
 import AnimationControls from "./components/AnimationControls";
 import BasicsOfMotion from "./components/BasicsOfMotion";
 import Gestures from "./components/Gestures";
+import ViewBasedAnimations from "./components/ViewBaseAnimaions";
 
 function App() {
   return (
@@ -9,7 +10,8 @@ function App() {
       <div className="container max-w-3xl mx-auto bg-slate-50 p-5 text-center">
         {/* <BasicsOfMotion /> */}
         {/* <Gestures /> */}
-        <AnimationControls />
+        {/* <AnimationControls /> */}
+        <ViewBasedAnimations />
       </div>
     </>
   );
